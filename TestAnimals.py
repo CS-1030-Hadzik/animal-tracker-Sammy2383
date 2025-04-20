@@ -5,7 +5,7 @@ from animal import Animal
 from dog import Dog
 
 class TestAnimals(unittest.TestCase):
-    total_points = 0  # Class-level variable to track points
+    total_points = 0  # Class-level variable to track points  
     user_name = ""  # Class-level variable to store the user's name
 
     @classmethod
